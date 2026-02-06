@@ -1,0 +1,15 @@
+# 1. ID Tổ chức của bạn trên MongoDB Atlas
+# Lấy tại: Organization Settings -> ID nằm góc trên bên trái
+mongodb_atlas_org_id = "thay_the_bang_org_id_cua_ban"
+
+# 2. Key truy cập API (Programmatic Access)
+# Lấy tại: Access Manager -> API Keys -> Create API Key
+mongodb_atlas_public_key  = "thay_the_bang_public_key"
+mongodb_atlas_private_key = "thay_the_bang_private_key"
+
+
+mongodb_db_password       = "PasswordCuaBanO_Day_123!" # <--- Mật khẩu thực tế
+
+
+# 3. Tên các database cần tạo (Đã set theo yêu cầu của bạn)
+project_names = ["ToeicHUST-DEV", "ToeicHUST-PROD"]
